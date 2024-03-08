@@ -1,0 +1,60 @@
+.formulario {
+    flex: 1;
+    /* background-color: red; */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formulario_header {
+    background-color: #03787C;
+    padding: 60px 0px 20px 20px;
+}
+
+.formulario_header span {
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.formulario_content {
+    background-color: #E8F2F2;
+    flex: 1;
+    padding-top: 30px;
+    padding: 30px 30px 0px 30px;
+}
+
+.formulario_description {
+    margin-bottom: 20px;
+}
+
+.formulario_bottom {
+    background-color: #99C9CA;
+    height: 40px;
+}
+
+.div_questions {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.formulario_send_button {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario_send_button button {
+    background-color: #03787C;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 45px;
+}
+
+.div_questions label {
+    margin-bottom: 10px;
+}

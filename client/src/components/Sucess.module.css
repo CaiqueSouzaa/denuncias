@@ -1,0 +1,28 @@
+.sucess {
+    background-color: #E8F2F2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 10px 10px #888888;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.sucess_button {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.sucess_button button {
+    background-color: #03787C;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+}

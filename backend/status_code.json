@@ -1,0 +1,25 @@
+{
+    "jwt": {
+        "token_nao_presente": 800,
+        "token_invalido": 801
+    },
+    "login_session": {
+        "formato_body_invalido": 700,
+        "usuario_ou_senha_invalidos": 701,
+        "logado_com_sucesso": 702
+    },
+    "denuncias": {
+        "formato_body_invalido": 900,
+        "necessario_ao_menos_um_item_no_body": 901,
+        "item_registrado_com_sucesso": 902,
+        "sucesso_ao_buscar_por_todas_as_denuncias": 903,
+        "sucesso_ao_buscar_por_uma_denuncia": 904
+    },
+    "users": {
+        "formato_body_invalido": 601,
+        "as_senhas_nao_sao_iguais": 602,
+        "nome_de_login_nao_disponível": 603,
+        "usuario_registrado_com_sucesso": 604,
+        "sucesso_ao_buscar_por_todas_os_usuarios": 605
+    }
+}

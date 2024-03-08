@@ -1,0 +1,36 @@
+.navbar {
+    /* background-color: blue; */
+    max-width: 300px;
+    flex: 1;
+    border-right: 1px #474747 solid;
+    user-select: none;
+}
+
+.navbar_title {
+    /* background-color: green; */
+    padding: 8px;
+    border-bottom: 1px #474747 solid;
+    display: flex;
+    align-items: end;
+}
+
+.navbar_title_span {
+    font-size: 2em;
+    color: #FFFFFF;
+}
+
+.navbar_title_quant {
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+
+.navbar_list {
+    height: 94%;
+    /* background-color: purple; */
+    overflow: auto;
+}
+
+.navbar_list ul {
+    margin: 0;
+    padding: 0;
+}
